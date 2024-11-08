@@ -2,7 +2,7 @@
 .env
 
 # Ignore __pycache__ directories
-__pycache__
+/app/__pycache__
 
 # Optionally, ignore other unwanted files or directories
 *.log

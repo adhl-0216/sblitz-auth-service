@@ -15,6 +15,11 @@ app.add_middleware(get_middleware())
 # TODO: Add APIs
 
 
+@app.get("/hello")
+def hello():
+    return {"Hello": "World"}
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
