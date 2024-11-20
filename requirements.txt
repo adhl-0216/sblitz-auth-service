@@ -1,3 +1,4 @@
-fastapi[standard]==0.115.4
+fastapi[standard]==0.115.5
 pydantic_settings==2.6.1
-supertokens_python==0.25.0
+starlette==0.41.3
+supertokens_python==0.25.1
