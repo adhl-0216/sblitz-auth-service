@@ -5,7 +5,7 @@ from supertokens_python.recipe import thirdparty, session, dashboard, emailpassw
 from fastapi import Depends
 from functools import lru_cache
 
-from app.config import Settings
+from app.settings import Settings
 
 
 @lru_cache
